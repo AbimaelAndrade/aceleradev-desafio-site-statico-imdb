@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo > img {
+  height: 4.5rem;
+}
+
+@media screen and (max-width: 720px) {
+  .logo > img {
+    height: 3.5rem;
+  }
+}

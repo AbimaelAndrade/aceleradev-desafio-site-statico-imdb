@@ -1,0 +1,33 @@
+.button {
+  display: flex;
+  width: fit-content;
+  justify-content: center;
+
+  cursor: pointer;
+
+  align-items: center;
+  background-color: var(--bg-color-button);
+  color: var(--color-text);
+  
+  padding: 1rem 2.5rem;
+  border-radius: 25px;
+
+  text-decoration: none;
+  font-size: var(--size-font-medium);
+
+  transition: background-color 0.2s ease-in-out;
+}
+
+.button i {
+  margin-left: 10px;
+  font-size: var(--size-icon-small);
+}
+
+.button:hover {
+  background-color: var(--bg-color-button-hover);
+}
+
+.button.large {
+  border-radius: 45px;
+  padding: 1.5rem 4.5rem;
+}

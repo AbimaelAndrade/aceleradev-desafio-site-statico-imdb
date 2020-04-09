@@ -1,0 +1,20 @@
+:root {
+  /* font */
+  --main-size-font: 10px;
+  --size-font: 1.3rem;
+  --size-font-medium: 1.6rem;
+  --font-title: 6.5rem;
+  --font-title-small: 4rem;
+  --size-icon-small: 2.4rem;
+  --size-icon-medium: 2.8rem;
+
+  /* padding */
+  --main-padding: 2rem;
+
+  /* dimensions */
+  --avatar-square: 4.5rem;
+  
+  /* border */
+  --border-radius: 50%;
+
+}

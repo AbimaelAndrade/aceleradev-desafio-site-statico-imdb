@@ -1,0 +1,40 @@
+.nav > .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-item {
+  cursor: pointer;
+}
+
+.nav-item  a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: var(--color-text-light);
+  font-weight: bold;
+  font-size: var(--size-font);
+
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-item:hover a{
+  color: var(--color-text-hover);
+}
+
+.nav-item + .nav-item {
+ margin-left: 35px;
+}
+
+@media screen and (max-width: 960px) {
+  .nav-items{
+    display: none;
+  }
+}

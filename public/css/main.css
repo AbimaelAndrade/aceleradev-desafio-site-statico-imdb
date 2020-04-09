@@ -1,6 +1,23 @@
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 
-* {
-	box-sizing: border-box;
-}
+/* Settings */
+@import 'settings/globals.css';
+
+/* Generics */
+@import 'generics/normalise.css';
+@import 'generics/box-sizing.css';
+
+/* Bases */
+@import 'bases/document.css';
+
+/* Objects */
+@import 'objects/container.css';
+@import 'objects/logo.css';
+@import 'objects/button.css';
+
+
+/* Components */
+@import 'components/header.css';
+@import 'components/nav.css';
+@import 'components/user.css';

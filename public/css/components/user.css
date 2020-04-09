@@ -1,0 +1,30 @@
+.user {
+  display: flex;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+.user:hover img {
+  filter: grayscale(1);
+}
+
+.user-avatar img {
+  height: var(--avatar-square);
+  border-radius: 50%; 
+
+  transition: color 0.2s ease-in-out;
+}
+
+.user-name {
+  font-size: var(--size-font);
+  color: var(--color-text-light);
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+
+@media screen and (max-width: 960px) {
+  .user {
+    display: none;
+  }
+}
