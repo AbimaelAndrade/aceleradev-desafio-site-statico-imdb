@@ -1,0 +1,29 @@
+.social-icons {
+  list-style: none;
+  display: flex;
+}
+
+.social-icon + .social-icon {
+  margin-left: 10px;
+}
+
+.social-icon > a {
+  font-size: var(--size-icon-medium);
+  color: var(--color-icon-like);
+}
+
+.social-icon > a:hover > i {
+  transition: color 0.2s ease-in-out;
+}
+
+.social-icon > a:hover > i.fa-twitter {
+  color: var(--color-icon-like-twitter);
+} 
+
+.social-icon > a:hover > i.fa-facebook-official {
+  color: var(--color-icon-like-facebook);
+} 
+
+.social-icon > a:hover > i.fa-instagram {
+  color: var(--color-icon-like-instagram);
+}
