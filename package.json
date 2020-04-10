@@ -1,0 +1,22 @@
+{
+  "name": "aceleradev-desafio-site-statico-imdb",
+  "version": "1.0.0",
+  "description": "AceleraDev desafio Site Estático IMDB",
+  "keywords": [
+    "aceleradev",
+    "codenation",
+    "react",
+    "html",
+    "css"
+  ],
+  "main": "public/index.html",
+  "repository": "https://github.com/AbimaelAndrade/aceleradev-desafio-site-statico-imdb.git",
+  "author": "abimaelandrade <abimaelc.andrade@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "deploy": "gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
