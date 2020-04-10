@@ -21,3 +21,6 @@
 @import 'components/header.css';
 @import 'components/nav.css';
 @import 'components/user.css';
+@import 'components/catalog.css';
+@import 'components/catalog-header.css';
+@import 'components/card-movie.css';

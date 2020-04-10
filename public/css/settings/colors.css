@@ -1,14 +1,19 @@
 :root {
   /* background */
+  --main-bg-color-light: #FFFFFF;
   --main-bg-color: #E5E5E5;
   --bg-color-button: #E4BB23;
   --bg-color-button-hover: rgba(228,187,35, 0.8);
 
   /* color */
+  --color-transparent: transparent;
   --color-text: #000000;
   --color-text-light: #FFFFFF;
   --color-text-yellow: #E4BB23;
   --color-text-hover: #E4BB23;
+  --color-icon-like: #ccc;
+  --color-icon-like-hover: #e74c3c;
   
   /* border */
+  --color-border-hover: #E4BB23;
 }
